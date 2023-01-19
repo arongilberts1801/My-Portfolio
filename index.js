@@ -32,7 +32,7 @@ submit.addEventListener("submit",(e)=>{
         Subject : "Testing email from" + email.value,
         Body : ebody
     }).then(
-      message => alert(arongilberts)  
+      message => alert(message)  
     ); 
 
 });
