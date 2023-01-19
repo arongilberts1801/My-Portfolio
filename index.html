@@ -13,6 +13,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>    
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 
 <body>
@@ -23,7 +24,7 @@
         <div class="max-width">
             <div class="logo"><a href="#">
                     <!-- Portfo<span>lio.</span> -->
-                    <span>A</span>ron <span>G</span>ilberts</a>
+                    <span></span>My <span>Portfolio</span></a>
             </div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
@@ -236,23 +237,29 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form action="#" class="form-contact">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input id="fname" type="text" placeholder="Enter First Name" required>
                             </div>
-                            <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                            <div class="field email" >
+                                <input id="lname" type="text" placeholder="Enter Last Name..." required>
                             </div>
+                            </div>
+                            <div class="field" >
+                                <input id="email" type="email" placeholder="Enter Email.." required>
                             </div>
                             <div class="field">
-                                <input type="text" placeholder="Subject" required>
+                                <input id="phone"type="text" placeholder="Enter Phone Number" maxlength="15" required>
+                            </div>
+                            <div class="field" >
+                                <input id="subject"type="text" placeholder="Subject" required>
                             </div>
                             <div class="field textarea">
-                                <textarea cols="30" rows="10"placeholder="Describe project.." required></textarea>
+                                <textarea id="textarea" cols="30" rows="10"placeholder="Describe Project.." required></textarea>
                             </div>
-                            <div class="button">
-                                <button type="submit">Send message</button>
+                            <div class="button" id="submit">
+                                <button id="submit" type="submit">Send message</button>
                             </div>
                       </form>
              </div>
@@ -266,6 +273,8 @@
             reserved.</span>
     </footer>
     <script src="script.js"></script>
+    <script src="./index.js"></script>
+
 </body>
 
 </html>
