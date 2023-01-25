@@ -439,7 +439,7 @@ section .title::after {
 }
 
 .skills .skills-content .right .html::before {
-    width: 90%;
+    width: 80%;
 }
 
 .skills .skills-content .right .css::before {
@@ -451,7 +451,7 @@ section .title::after {
 }
 
 .skills .skills-content .right .react::before {
-    width: 90%;
+    width: 70%;
 }
 
 .skills .skills-content .right .python::before {
@@ -660,6 +660,7 @@ footer span a {
     color: crimson;
     text-decoration: none;
     font-size: 14px;
+    align-items: center;
 }
 
 footer span a:hover {
@@ -847,6 +848,7 @@ footer .aron ul li:nth-child(5) a:hover .fab {
         margin-bottom: 40px;
 
     }
+   
 }
 
 @media (max-width:690px) {
